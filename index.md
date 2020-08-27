@@ -18,7 +18,7 @@
 		
 		<div class="sidebar">
 
-			<center><a href="index.md"><img class="logo" src="resources\Logo.png" alt="El Logo"></a></center>
+			<center><a href="index.md"><img class="logo" src="resources/Logo.png" alt="El Logo"></a></center>
 			<center style="color:white;"><b>Just Another Stylized Pack</b></center>
 
 			<div class="header"><center><b>Home</b></center></div>
