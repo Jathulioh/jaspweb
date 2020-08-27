@@ -78,6 +78,7 @@ body{
 	font-size: 32px;
 	text-align: left;
 	transition: background-color 0.3s, transform 0.3s;
+	transition-delay: 0.1s;
 	
 }
 .sidebutton:link{
@@ -93,10 +94,15 @@ body{
 .sidebutton:active{
 	
 }
-
+.gallery{
+	column-count: 3;
+}
 .image{
-	width:20%;
-	height:20%;
+	height:100%;
+	width:100%;
+	margin-top: 1%;
+	border-radius: 2.5%;
+	box-shadow: 5px 5px 5px black;
 }
 
 /* Animations and stuff beyond this point */
