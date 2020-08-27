@@ -10,7 +10,6 @@ body{
 	max-height: 100vh;
 	min-width: 15%;
 	max-width: 15%;
-	margin-left: 50%;
 	z-index: 5;
 }
 .main{
@@ -36,10 +35,10 @@ body{
 	z-index: 1;
 }
 .adspace{
-
+	position:fixed;
 	background-color: gray;
 	color: black;
-	z-index: 5;
+	z-index: 4;
 	height: 100%;
 	width: 100%;
 }
