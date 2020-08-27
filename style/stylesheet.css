@@ -1,0 +1,84 @@
+body{
+	font-family: Helvetica;
+	background-color: white;
+	margin: 0%;
+}
+.sidebar{
+	float:left;
+	background-color: #8EC760;
+	min-height: 100vh;
+	max-height: 100vh;
+	min-width: 15%;
+	max-width: 15%;
+	margin: 0%;
+	padding: 0%;
+	box-shadow: 5px 5px black;
+}
+.main{
+	float:right;
+	background-color: white;
+	min-height: 100vh;
+	max-height: 100vh;
+	min-width: 75%;
+	max-width: 75%;
+}
+.content{
+	color:#2e2e2e;
+	background-color: white;
+	margin: 5%;
+	min-height: 100%;
+}
+.adspace{
+	float:right;
+	background-color: black;
+	min-height: 100vh;
+	max-height: 100vh;
+	height: 100%;
+	min-width: 10%;
+	max-width: 10%;
+}
+.header{
+	padding-top: 5%;
+	color: white;
+	font-family: Helvetica;
+	font-size: 48px;
+}
+.logo{
+	width: 50%;
+}
+.footer{
+	position:fixed;
+	color: white;
+	background-color: #6A9447;
+	bottom: 0px;
+	width:13%;
+	padding: 1%;
+}
+.sidebutton{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	margin-left: 10%;
+	margin-top: 1%;
+	padding:10px;
+	background-color:#7CAD53;
+	width:75%;
+	box-shadow: 2px 2px 5px black;
+	font-size: 32px;
+	text-align: left;
+	transition: background-color 0.3s, transform 0.3s;
+	
+}
+.sidebutton:link{
+	
+}
+.sidebutton:visited{
+
+}
+.sidebutton:hover{
+	background-color: #334722;
+	transform: translate(20%, 0px);
+}
+.sidebutton:active{
+	color:green;
+}
