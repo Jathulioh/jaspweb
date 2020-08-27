@@ -16,6 +16,7 @@ body{
 	z-index: 5;
 }
 .main{
+	position: relative;
 	float:right;
 	background-color: white;
 	min-height: 100vh;
@@ -25,6 +26,7 @@ body{
 	z-index: 1;
 }
 .content{
+	position: relative;
 	animation-name: slideInFromLeft;
 	animation-duration: 1s;
 
