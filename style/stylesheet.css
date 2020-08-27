@@ -39,7 +39,7 @@ body{
 }
 .adspace{
 	position: fixed;
-	float:right;
+	
 	background-color: gray;
 	color: black;
 	min-height: 100vh;
