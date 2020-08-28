@@ -35,7 +35,7 @@ body{
 }
 .adspace{
 	position:fixed;
-
+	z-index: 6;
 }
 .header{
 	padding-top: 5%;
