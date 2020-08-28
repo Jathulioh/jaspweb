@@ -39,8 +39,9 @@ body{
 	background-color: gray;
 	color: black;
 	z-index: 4;
-	height: 100%;
-	width: 100%;
+	height: 100vh;
+	width: 10%;
+	margin-left: 90%;
 }
 .header{
 	padding-top: 5%;
