@@ -14,7 +14,6 @@ body{
 }
 .main{
 	position: absolute;
-	float:left;
 	background-color: white;
 	min-height: 100vh;
 	max-height: 100vh;
@@ -36,12 +35,7 @@ body{
 }
 .adspace{
 	position:fixed;
-	background-color: gray;
-	color: black;
-	z-index: 4;
-	height: 100vh;
-	width: 10%;
-	margin-left: 90%;
+
 }
 .header{
 	padding-top: 5%;
