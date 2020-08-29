@@ -17,8 +17,7 @@ body{
 	background-color: white;
 	min-height: 100vh;
 	max-height: 100vh;
-	min-width: 75%;
-	max-width: 75%;
+	width:75%;
 	z-index: 1;
 }
 .content{
@@ -36,6 +35,10 @@ body{
 .space{
 	position:fixed;
 	margin-left:90%;
+	width:10%;
+	height:100vh;
+	z-index: 4;
+	background-color: gray;
 }
 .header{
 	padding-top: 5%;
@@ -93,10 +96,21 @@ body{
 	border-radius: 2.5%;
 	box-shadow: 5px 5px 5px black;
 }
+.roadmap{
+	width:100%;
+}
+.todolist, th, td{
+	border: 1px solid black;
+	margin-bottom: 5%;
+}
+.todolist img{
+	width:30%;
+	margin-left: 35%;
+}
 
 /* Animations and stuff beyond this point */
 @keyframes slideInFromLeft{
-	0%{	transform: translateX(-150%); }
+	0%{	transform: translateX(-100%); }
 	100%{ transform: translateX(0%); }
 }
 
