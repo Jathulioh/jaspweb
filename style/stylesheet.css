@@ -107,6 +107,12 @@ body{
 	width:30%;
 	margin-left: 35%;
 }
+.blogpost{
+	box-shadow: 5px 5px 5px black;
+	height:25%;
+	width:30%;
+	background-color: black;
+}
 
 /* Animations and stuff beyond this point */
 @keyframes slideInFromLeft{
