@@ -114,6 +114,11 @@ body{
 	background-color: black;
 }
 
+.comparison-container{
+	margin-top: 1%;
+	box-shadow: 5px 5px 5px black;
+}
+
 /* Animations and stuff beyond this point */
 @keyframes slideInFromLeft{
 	0%{	transform: translateX(-100%); }
