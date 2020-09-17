@@ -1,6 +1,7 @@
 body{
 	font-family: Helvetica;
-	background-color: white;
+	background-color: #242424;
+	color:#ededed;
 	margin: 0%;
 }
 .sidebar{
@@ -14,7 +15,7 @@ body{
 }
 .main{
 	position: absolute;
-	background-color: white;
+	background-color: #242424;
 	min-height: 100vh;
 	max-height: 100vh;
 	width:75%;
@@ -25,8 +26,8 @@ body{
 	animation-name: slideInFromLeft;
 	animation-duration: 1s;
 
-	color:#2e2e2e;
-	background-color: white;
+	color:#ededed;
+	background-color: #242424;
 	margin: 5%;
 	width: 90%;
 	margin-left: 25%;
@@ -38,13 +39,14 @@ body{
 	width:10%;
 	height:100vh;
 	z-index: 4;
-	background-color: gray;
+	background-color: #242424;
 }
 .header{
 	padding-top: 5%;
 	color: white;
 	font-family: Helvetica;
 	font-size: 48px;
+	font-size-adjust: 0.5;
 }
 .logo{
 	width: 50%;
@@ -117,6 +119,27 @@ body{
 .comparison-container{
 	margin-top: 1%;
 	box-shadow: 5px 5px 5px black;
+}
+
+.link{
+	text-decoration: none;
+	color:#8EC760;
+}
+
+.download{
+	font-size:24px;
+	font-weight: bold;
+	color:white;
+	text-decoration: none;
+	margin-top: 1%;
+	padding:10px;
+	background-color:#7CAD53;
+	box-shadow: 0px 0px 0px black;
+	transition: background-color 0.3s, box-shadow 0.3s;
+}
+.download:hover{
+	background-color: #334722;
+	box-shadow: 2px 2px 2px black;
 }
 
 /* Animations and stuff beyond this point */
